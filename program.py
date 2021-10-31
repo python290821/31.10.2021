@@ -46,7 +46,8 @@ print(zugi)
 #            [False, True, True, False ...]
 #    you can use this funcion to detect if number is prime or not:
 # def is_prime(a):
-#    x = True
+#    if a < 2:
+#       return False
 #    for i in range(2, a):
 #       if a % i == 0:
 #           return False
