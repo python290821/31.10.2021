@@ -42,11 +42,11 @@ for x in o_prices:
         prices.append(0)
 #        [ _APPEND_A_CONDITION_ELSE_B _FOR_ _IF_TRUE_ ]
 prices = [x if x > 0 else 0 for x in o_prices]
-x = int(input())
+x = int(input('Enter a number: '))
 print('positive' if x > 0 else 'negative')
 def positive_or_negative(x):
     return 'positive' if x > 0 else 'negative'
-_salary = int(input())
+_salary = int(input('Enter a number: '))
 _salary = _salary * 0.9 if _salary < 5000 else _salary * 0.8
 if _salary < 5000:
     _salary = _salary * 0.9
@@ -55,6 +55,8 @@ else:
 
 # 4
 # ['hello', '', 'python', 'world', 'full stack','a']
-# list of len if len < 3 then -1
-
+# [5, -1, 6, 5, 10, -1]
+# list of len: if len of the word is less than 3 then -1
+_words = ['hello', '', 'python', 'world', 'full stack','a']
+print([len(_word) if len(_word) >= 3 else -1 for _word in _words])
 
