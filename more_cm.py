@@ -1,4 +1,3 @@
-'''
 # 1
 # "i wake up at 6:00 am"
 # create a list containing only letters (hint: isalpha)
@@ -60,7 +59,7 @@ else:
 # list of len: if len of the word is less than 3 then -1
 _words = ['hello', '', 'python', 'world', 'full stack','a']
 print([len(_word) if len(_word) >= 3 else -1 for _word in _words])
-'''
+
 # create a list of number
 #   1      2         3          4                 5
 # [[0], [0, 1], [0, 1, 2], [0, 1, 2, 3], [0, 1, 2, 3, 4]]
