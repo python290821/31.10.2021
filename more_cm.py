@@ -8,7 +8,7 @@
 # nums = [[1,2,6], [7,8,9], [100,5,2]]
 # create a list of the max [6, 9, 100]
 # create a list of the min [1, 7, 2]
-# create a list of avg 
+# create a list of avg
 #import statistics
 #print(statistics.mean([1,2,3]))
 # 3
