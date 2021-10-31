@@ -43,17 +43,11 @@ print(zugi)
 #      if the original one was prime or not
 #    i.e.
 #    _lst3 = [1,      2,       5, 8,        17, 19, 29]
-#             False, True, False, Falase ...
+#            [False, True, True, False ...]
 #    you can use this funcion to detect if number is prime or not:
 # def is_prime(a):
 #    x = True
 #    for i in range(2, a):
-#       if a%i == 0:
-#           x = False
-#           break # ends the for loop
-
-
-    if x:
-        print "prime"
-    else:
-        print "not prime"
+#       if a % i == 0:
+#           return False
+#    return True
